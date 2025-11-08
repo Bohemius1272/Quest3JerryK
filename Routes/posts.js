@@ -9,4 +9,4 @@ router.get('/new', (req, res) => {
     res.send('Form to create a new post will be shown here.');
 });
 
-MediaSourceHandle.exports = router;
+module.exports = router;
