@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/new', (req, res) => {
-    res.send('Form to create a new post will be shown here.');
+    res.send('form to create a new post will be shown here.');
 });
 
 module.exports = router;
